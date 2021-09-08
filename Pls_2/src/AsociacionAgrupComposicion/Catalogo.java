@@ -1,0 +1,29 @@
+package AsociacionAgrupComposicion;
+
+import java.util.ArrayList;
+
+//CATALOGO PRODUCTO RELACION DE ASOCIACION
+//DENTRO DE LA CLASE CATALOGO VOY A TENER 0 O MAS PRODUCTOS
+//DESDE QUE SE CREA LA CLASE CATALOGO TENDRIA CERO PRODUCTOS O MAS
+//DESDE EL MOMENTO QUE SE CREA LA CLASE CATALOGO TENGO CERO PRODUCTOS Y PUEDO TENER MAS PRODUCTOS
+public class Catalogo {
+
+    private ArrayList<Producto> inventario;
+
+    public Catalogo(ArrayList<Producto> inventario) {
+        this.inventario = inventario;
+    }
+}
+//COMPOSICION
+//DENTRO DE LA CLASE CARRITO CREO ARRAYLIST DE PRODUCTO
+//SE CUMPLE NO EXISTE EL CARRITO SI NO ESTA LA LISTA DE PRODUCTOS
+
+
+
+
+
+
+
+
+
+
